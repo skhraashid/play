@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/skhraashid/play.git'
+        git 'https://github.com/skhraashid/play.git' branch:'main'
       }
     }
 
